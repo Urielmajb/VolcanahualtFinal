@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorAccent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:src="@drawable/control"
+        android:layout_above="@+id/tictac"
+        android:layout_alignLeft="@+id/tj"
+        android:layout_alignStart="@+id/tj" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tic Tac"
+        android:id="@+id/tictac"
+        android:background="@drawable/boton_redondo"
+        android:layout_above="@+id/tj"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:textColor="@color/NEGRO"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Papel y tijera"
+        android:id="@+id/tj"
+        android:background="@drawable/boton_redondo"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/NEGRO"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver al menu"
+        android:id="@+id/regresar"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/boton_redondo"
+        android:layout_below="@+id/tj"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/NEGRO"
+        android:textSize="20dp" />
+
+</RelativeLayout>

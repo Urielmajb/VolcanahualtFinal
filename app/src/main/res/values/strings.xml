@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Volcanahualt</string>
+    <string name="entrar">Entrar</string>
+    <string name="menu_principal">Menu Principal</string>
+    <string name="prueba_de_aprendizaje">Prueba de Aprendizaje</string>
+    <string name="puzzle">puzzle</string>
+    <string name="creditos">Creditos</string>
+    <string name="salir">Salir</string>
+    <string name="juegos">Juegos</string>
+</resources>
